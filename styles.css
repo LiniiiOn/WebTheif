@@ -1,0 +1,434 @@
+
+
+
+
+body {
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+}
+
+
+@keyframes textOpacityStart {
+    0% {
+        opacity: 0;
+    }
+    
+    100% {
+        opacity: 1;
+    }
+}
+
+
+@keyframes textAlignStart {
+    0% {
+        align-items: center;
+    }
+    
+    100% {
+        opacity: start;
+    }
+}
+
+.terpilaImg {
+    width: 100vw;
+    height: 100vh;
+
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 7vw;
+    color: rgb(12, 12, 12);
+    margin: 0;
+
+    animation: textOpacityStart 2s;
+    transition: all 2s ease-in-out;
+
+}
+
+.terpilaImg.animUp {
+    transition: transform 2s ease-in-out;
+    transform: translateY(-30vh);
+}
+.terpilaImg.animDown {
+    transition: transform 2s ease-in-out;
+    transform: translateY(0);
+}
+
+
+
+
+.castle {
+    width: 20vw;
+    left: calc(40vw);
+    position: absolute;
+    cursor: grab;
+    user-select: none;
+    opacity: 0.25;
+}
+.key1 {
+    width: 10vw;
+    left: calc(10vw);
+    top: calc(60vh);
+    opacity: 0.2;
+}
+.keyTrue {
+    width: 10vw;
+    left: calc(40vw);
+    top: calc(60vh);
+    opacity: 0.2;
+}
+.key2 {
+    width: 10vw;
+    left: calc(70vw);
+    top: calc(60vh);
+    opacity: 0.2;
+}
+
+.hrefForYoyTube {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    color: rgb(12, 12, 12);
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10vh;
+}
+
+.hrefForYoyTube a {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+}
+
+.move {
+    position: absolute;
+    cursor: grab;
+    user-select: none;
+}
+
+
+.button {
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    background-color: rgb(0, 0, 0);
+    color: rgb(15, 15, 15);
+    border: 0;
+    cursor: pointer;
+    font-size: 2.5vh;
+}
+
+.buttons {
+    position: absolute;
+    top: calc(60vh);
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+ @media screen and (max-width: 600px) {
+  body {
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+}
+
+
+@keyframes textOpacityStart {
+    0% {
+        opacity: 0;
+    }
+    
+    100% {
+        opacity: 1;
+    }
+}
+
+
+@keyframes textAlignStart {
+    0% {
+        align-items: center;
+    }
+    
+    100% {
+        opacity: start;
+    }
+}
+
+.terpilaImg {
+    width: 100vw;
+    height: 100vh;
+
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15vw;
+    color: rgb(12, 12, 12);
+    margin: 0;
+
+    animation: textOpacityStart 2s;
+    transition: all 2s ease-in-out;
+
+}
+
+.terpilaImg.animUp {
+    transition: transform 2s ease-in-out;
+    transform: translateY(-30vh);
+}
+.terpilaImg.animDown {
+    transition: transform 2s ease-in-out;
+    transform: translateY(0);
+}
+
+
+
+
+.castle {
+    top: calc(10vh);
+    width: 40vw;
+    left: calc(30vw);
+    position: absolute;
+    cursor: grab;
+    user-select: none;
+    opacity: 0.1;
+}
+.key1 {
+    width: 25vw;
+    left: calc(-5vw);
+    top: calc(60vh);
+    opacity: 0.2;
+}
+.keyTrue {
+    width: 25vw;
+    left: calc(30vw);
+    top: calc(60vh);
+    opacity: 0.2;
+}
+.key2 {
+    width: 25vw;
+    left: calc(65vw);
+    top: calc(60vh);
+    opacity: 0.2;
+}
+
+.hrefForYoyTube {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    color: rgb(12, 12, 12);
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10vh;
+}
+
+.hrefForYoyTube a {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+}
+
+.move {
+    position: absolute;
+    cursor: grab;
+    user-select: none;
+}
+
+
+.button {
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    background-color: rgb(0, 0, 0);
+    color: rgb(15, 15, 15);
+    border: 0;
+    cursor: pointer;
+    font-size: 3vh;
+}
+
+.buttons {
+    position: absolute;
+    top: calc(60vh);
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+  }
+
+
+
+
+  @media screen and (max-width: 1300px) {
+  body {
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+}
+
+
+@keyframes textOpacityStart {
+    0% {
+        opacity: 0;
+    }
+    
+    100% {
+        opacity: 1;
+    }
+}
+
+
+@keyframes textAlignStart {
+    0% {
+        align-items: center;
+    }
+    
+    100% {
+        opacity: start;
+    }
+}
+
+.terpilaImg {
+    width: 100vw;
+    height: 100vh;
+
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15vw;
+    color: rgbrgb(12, 12, 12);
+    margin: 0;
+
+    animation: textOpacityStart 2s;
+    transition: all 2s ease-in-out;
+
+}
+
+.terpilaImg.animUp {
+    transition: transform 2s ease-in-out;
+    transform: translateY(-30vh);
+}
+.terpilaImg.animDown {
+    transition: transform 2s ease-in-out;
+    transform: translateY(0);
+}
+
+
+
+
+.castle {
+    top: calc(10vh);
+    width: 40vw;
+    left: calc(30vw);
+    position: absolute;
+    cursor: grab;
+    user-select: none;
+    opacity: 0.1;
+}
+.key1 {
+    width: 25vw;
+    left: calc(-5vw);
+    top: calc(60vh);
+    opacity: 0.2;
+}
+.keyTrue {
+    width: 25vw;
+    left: calc(30vw);
+    top: calc(60vh);
+    opacity: 0.2;
+}
+.key2 {
+    width: 25vw;
+    left: calc(65vw);
+    top: calc(60vh);
+    opacity: 0.2;
+}
+
+.hrefForYoyTube {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    color: rgb(10, 10, 10);
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10vh;
+}
+
+.hrefForYoyTube a {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+}
+
+.move {
+    position: absolute;
+    cursor: grab;
+    user-select: none;
+}
+
+
+.button {
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    background-color: rgb(0, 0, 0);
+    color: rgb(15, 15, 15);
+    border: 0;
+    cursor: pointer;
+    font-size: 2.5vh;
+}
+
+.buttons {
+    position: absolute;
+    top: calc(60vh);
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+  }
