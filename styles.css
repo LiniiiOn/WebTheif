@@ -40,7 +40,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    font-family: "Tiny5", sans-serif;
+    font-family: "Rubik Mono One", monospace;
     font-weight: 400;
     font-style: normal;
     font-size: 7vw;
@@ -101,7 +101,7 @@ body {
 
 
     color: rgb(12, 12, 12);
-    font-family: "Tiny5", sans-serif;
+    font-family: "Rubik Mono One", monospace;
     font-weight: 400;
     font-style: normal;
     font-size: 10vh;
@@ -121,7 +121,7 @@ body {
 
 
 .button {
-    font-family: "Tiny5", sans-serif;
+    font-family: "Rubik Mono One", monospace;
     font-weight: 400;
     font-style: normal;
 
@@ -183,7 +183,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    font-family: "Tiny5", sans-serif;
+    font-family: "Rubik Mono One", monospace;
     font-weight: 400;
     font-style: normal;
     font-size: 15vw;
@@ -245,7 +245,7 @@ body {
 
 
     color: rgb(12, 12, 12);
-    font-family: "Tiny5", sans-serif;
+    font-family: "Rubik Mono One", monospace;
     font-weight: 400;
     font-style: normal;
     font-size: 10vh;
@@ -265,7 +265,7 @@ body {
 
 
 .button {
-    font-family: "Tiny5", sans-serif;
+    font-family: "Rubik Mono One", monospace;
     font-weight: 400;
     font-style: normal;
 
@@ -329,7 +329,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    font-family: "Tiny5", sans-serif;
+    font-family: "Rubik Mono One", monospace;
     font-weight: 400;
     font-style: normal;
     font-size: 15vw;
@@ -391,10 +391,10 @@ body {
 
 
     color: rgb(10, 10, 10);
-    font-family: "Tiny5", sans-serif;
+    font-family: "Rubik Mono One", monospace;
     font-weight: 400;
     font-style: normal;
-    font-size: 10vh;
+  font-size: 10vh;
 }
 
 .hrefForYoyTube a {
@@ -411,7 +411,7 @@ body {
 
 
 .button {
-    font-family: "Tiny5", sans-serif;
+    font-family: "Rubik Mono One", monospace;
     font-weight: 400;
     font-style: normal;
 
